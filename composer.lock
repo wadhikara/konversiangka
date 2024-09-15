@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "abf95442e803f8b388c28077842bd6fc",
+    "packages": [
+        {
+            "name": "nasution/terbilang",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mul14/terbilang-php.git",
+                "reference": "bd6b8153575b22fe21627f1475d68f0f372173ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mul14/terbilang-php/zipball/bd6b8153575b22fe21627f1475d68f0f372173ef",
+                "reference": "bd6b8153575b22fe21627f1475d68f0f372173ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.3"
+            },
+            "require-dev": {
+                "cweagans/composer-patches": "^1.7",
+                "phpunit/phpunit": "4.8.34"
+            },
+            "type": "library",
+            "extra": {
+                "composer-exit-on-patch-failure": true,
+                "patches": {
+                    "phpunit/phpunit-mock-objects": {
+                        "Fix PHP 7 and 8 compatibility": "https://cdn.jsdelivr.net/gh/esyede/phpunit-patches/phpunit_mock_objects.patch"
+                    },
+                    "phpunit/phpunit": {
+                        "Fix PHP 7 compatibility": "https://cdn.jsdelivr.net/gh/esyede/phpunit-patches/phpunit_php7.patch",
+                        "Fix PHP 8 compatibility": "https://cdn.jsdelivr.net/gh/esyede/phpunit-patches/phpunit_php8.patch"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/terbilang.php"
+                ],
+                "psr-4": {
+                    "Nasution\\": "src/Nasution"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Mulia Arifandi Nasution",
+                    "email": "mul14.net@gmail.com"
+                }
+            ],
+            "description": "Convert numbers into words (and vice-versa) in Indonesian language",
+            "homepage": "https://github.com/mul14/terbilang-php",
+            "keywords": [
+                "indonesia",
+                "terbilang"
+            ],
+            "support": {
+                "issues": "https://github.com/mul14/terbilang-php/issues",
+                "source": "https://github.com/mul14/terbilang-php/tree/v0.1.0"
+            },
+            "time": "2022-03-25T11:41:11+00:00"
+        },
+        {
+            "name": "satyakresna/masehi",
+            "version": "v0.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satyakresna/masehi-php.git",
+                "reference": "ff653287bf05053462f86c00a61b9eef7dc4f228"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satyakresna/masehi-php/zipball/ff653287bf05053462f86c00a61b9eef7dc4f228",
+                "reference": "ff653287bf05053462f86c00a61b9eef7dc4f228",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Masehi\\": "src/Masehi"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Satya Kresna",
+                    "email": "satyakresna6295@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convert date to Indonesia language, convert time based on timezone and validate date and time",
+            "homepage": "https://github.com/satyakresna/masehi-php",
+            "keywords": [
+                "converter",
+                "date",
+                "datetime",
+                "indonesia",
+                "konversi",
+                "tanggal",
+                "tanggal dan waktu",
+                "time",
+                "waktu"
+            ],
+            "support": {
+                "issues": "https://github.com/satyakresna/masehi-php/issues",
+                "source": "https://github.com/satyakresna/masehi-php/tree/master"
+            },
+            "abandoned": true,
+            "time": "2018-12-10T03:22:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "wadhi/konversiangka",
+    "autoload": {
+        "psr-4": {
+            "Wadhi\\Konversiangka\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adhikara",
+            "email": "wadhikara@gmail.com"
+        }
+    ],
+    "require": {
+        "nasution/terbilang": "^0.1.0",
+        "satyakresna/masehi": "^0.12.1"
+    }
+}
